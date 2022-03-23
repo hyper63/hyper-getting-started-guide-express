@@ -13,6 +13,6 @@ const hyper = connect(process.env.HYPER);
 
 export default async function (req, res) {
   console.log("getting doc: ", req.params.id);
-  const book = await hyper.data.get(req.params.id);
-  return res.send(book);
+  const doc = await hyper.data.get(req.params.id);
+  return res.send(doc);
 }
