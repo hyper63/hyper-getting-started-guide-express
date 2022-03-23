@@ -8,8 +8,10 @@ The best way to do these quickstarts is to use gitpod.io:
 
 🚀[Launch Workspace](https://gitpod.io/#https://github.com/hyper63/hyper-getting-started-guide-express) 🚀
 
-If you prefer, you can clone the repo:
+If you prefer, you can clone the repo and install dependencies:
 
 ```bash
-git clone
+git clone https://github.com/hyper63/hyper-getting-started-guide-express.git
+cd hyper-getting-started-guide-express
+yarn
 ```
