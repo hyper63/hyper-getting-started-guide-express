@@ -13,7 +13,7 @@ app.post("/docs", addDoc);
 app.get("/docs/:id", getDoc);
 
 app.get("/", function (req, res) {
-  res.send({ name: "Getting Started Guide Express API", ok: true });
+  res.send({ name: "Welcome to the Getting Started Guide Express API", ok: true });
 });
 
 app.listen(3001);
