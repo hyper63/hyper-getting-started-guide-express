@@ -11,5 +11,5 @@ The best way to do these quickstarts is to use gitpod.io:
 If you prefer, you can clone the repo:
 
 ```bash
-
+git clone
 ```
