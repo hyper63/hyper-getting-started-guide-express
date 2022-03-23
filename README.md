@@ -13,5 +13,5 @@ If you prefer, you can clone the repo and install dependencies:
 ```bash
 git clone https://github.com/hyper63/hyper-getting-started-guide-express.git
 cd hyper-getting-started-guide-express
-yarn
+npm install
 ```
